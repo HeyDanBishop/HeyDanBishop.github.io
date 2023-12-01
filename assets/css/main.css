@@ -100,6 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #1e252d;
+		background-color: #cccccc;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2905,6 +2906,8 @@ p.twoImages {
 /* Icons */
 
 	ul.icons {
+		font-size : 115%; 
+		font-weight : bold;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -3025,7 +3028,7 @@ p.twoImages {
 		}
 
 		header > p {
-			font-style: italic;
+			/* font-style: italic; */
 		}
 
 		header > h1 + p {
@@ -3040,7 +3043,9 @@ p.twoImages {
 		}
 
 		header > h3 + p {
+			/*
 			font-size: 0.9rem;
+			*/
 			margin-top: -0.75rem;
 		}
 
@@ -3051,7 +3056,9 @@ p.twoImages {
 
 		header.major {
 			margin: 0 0 0 0;
-			text-align: center;
+			/* 
+			text-align: center; 
+			*/
 		}
 
 			header.major > :last-child {
@@ -3491,7 +3498,7 @@ p.twoImages {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 4rem;
 			line-height: 1;
 		}
 
@@ -3579,7 +3586,7 @@ p.twoImages {
 			}
 
 				#intro h1 {
-					font-size: 3.25rem;
+					font-size: 3.00rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
 				}
