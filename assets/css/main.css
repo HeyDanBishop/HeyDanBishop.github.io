@@ -3038,7 +3038,7 @@ p.twoImages {
 	}
 
 		header > .date {
-			display: block;
+			/* display: block; */
 			font-size: 0.9rem;
 			height: 1;
 			margin: 0 0 1rem 0;
@@ -3903,7 +3903,7 @@ p.twoImages {
 
 		#main > * {
 			
-			padding: 4rem 4rem 2rem 4rem ;
+			padding: 2rem 4rem 2rem 4rem ;
 			
 			/*
 			padding: 1rem 1rem 1rem 2rem ;
@@ -3921,7 +3921,7 @@ p.twoImages {
 		}
 
 		#main > .post {
-			padding: 4rem 6rem 4rem 6rem ;
+			padding: 2rem 4rem 2rem 6rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3931,7 +3931,7 @@ p.twoImages {
 			#main > .post header.major > h1, #main > .post header.major h2 {
 				font-size: 4rem;
 				line-height: 1.1;
-				margin: 0 0 2rem 0;
+				margin: 1rem 0 2rem 0;
 			}
 
 			#main > .post.featured {
@@ -3941,7 +3941,7 @@ p.twoImages {
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 4rem 4rem 2rem 4rem ;
+					padding: 2rem 4rem 2rem 4rem ;
 					/*
 					padding: 1rem 1rem 1rem 2rem ;
 					*/
@@ -3952,7 +3952,7 @@ p.twoImages {
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 4rem 2rem 2rem 2rem ;
+					padding: 2rem 2rem 2rem 2rem ;
 				}
 
 					#main > .post header.major > .date {
@@ -4849,3 +4849,79 @@ p.twoImages {
 		}
 
 	}
+
+
+
+
+	/* Style the header with a grey background and some padding */
+.header {
+	overflow: hidden;
+	/* background-color: #f1f1f1; */
+	/* padding: 20px 10px; */
+  
+	width: 80%;
+	  max-width: 1080px;
+	  margin: auto;
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	  /* height : 75px; */
+  
+  }
+  
+  /* Style the header links */
+  .header a {
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+	padding-left : 10px;
+	padding-right : 10px;
+	text-decoration: none;
+	font-size: 90%;
+	/* line-height: 25px; */
+	border-radius: 4px;
+	font-weight: bold;
+	margin-left : 15px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+	font-size: 150%;
+	border : 2px solid #ffffff;
+	padding : 2px;
+	padding-left : 20px;
+	padding-right : 20px;
+	
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+	/*background-color: #ddd;*/
+	text-decoration : underline;
+	color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+	background-color: dodgerblue;
+	color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+	float: right;
+	vertical-align : middle;
+	padding-top : 5px;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	.header-right {
+	  float: none;
+	}
+  }
