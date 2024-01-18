@@ -4927,6 +4927,10 @@ p.twoImages {
 	  text-align: left;
 	}
 	*/
+	.header {
+		width : 95;
+	}
+	
 	a.logo {
 		float : none;
 		display: block;
