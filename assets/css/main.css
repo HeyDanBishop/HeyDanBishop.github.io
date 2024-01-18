@@ -3048,8 +3048,8 @@ p.twoImages {
 
 		header > p {
 			/* font-style: italic; */
-			padding-left : 1.5rem; 
-			padding-right : 1.5rem;
+			padding-left : 0.5rem; 
+			padding-right : 0.5rem;
 		}
 
 		header > h3 {
@@ -3953,7 +3953,7 @@ p.twoImages {
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 2rem 2rem 2rem 2rem ;
+					padding: 2rem 1rem 2rem 1rem;
 				}
 
 					#main > .post header.major > .date {
@@ -4940,6 +4940,8 @@ p.twoImages {
 	.header-right {
 	  float: left;
 	}
-	
+
+
+
   }
   
