@@ -4917,7 +4917,7 @@ p.twoImages {
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 575px) {
 	/*
 	.header a {
 	
@@ -4928,13 +4928,13 @@ p.twoImages {
 	}
 	*/
 	.header {
-		width : 95;
+		width : 95%;
 	}
-	
+
 	a.logo {
 		float : none;
 		display: block;
-		width : 60%;
+		width : 50%;
 	}
 
 	.header-right {
