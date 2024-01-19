@@ -4973,7 +4973,7 @@ p.twoImages {
   
   /* Style the active/current link*/
   .header a.active {
-	background-color: #505050;
+	background-color: #606060;
 	color: white;
 	border-bottom : 2px solid #ffffff;
   }
