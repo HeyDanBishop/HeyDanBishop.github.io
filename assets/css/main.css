@@ -2089,7 +2089,13 @@ input, select, textarea {
 
 .sideBySideIntro {
 	display : flex;
-	margin : auto; width : 100%;
+
+
+	flex-wrap : wrap;	
+
+
+	margin : auto; 
+	width : 100%;
 	padding-top : 3em; 
 }
 
@@ -2123,7 +2129,7 @@ input, select, textarea {
 	font-size : 90%; line-height : 150%; text-align : left;
 }
 
-
+/*
 .sideBySide {
 	display : flex;
 	margin : auto; width : 90%;
@@ -2138,6 +2144,56 @@ input, select, textarea {
 	padding-left : 2em; padding-top : 3em; 
 	font-size : 90%; line-height : 150%; text-align : left;
 }
+*/
+
+.sideBySide {
+	display : flex;
+	flex-wrap : wrap;
+
+	margin : auto; 
+	width : 90%;
+}
+
+.flex-item-left  {
+	flex : 60%
+}
+
+.flex-item-right  {
+	flex : 40%
+}
+
+.sideBySideIntro .flex-item-left  {
+	flex : 50%
+}
+
+.sideBySideIntro .flex-item-right  {
+	flex : 50%
+}
+
+
+.sideBySide p {
+	padding-left : 2em; padding-top : 3em; 
+	font-size : 90%; line-height : 150%; text-align : left;
+}
+
+
+
+@media screen and (max-width: 575px) {
+
+	.flex-item-right, .flex-item-left {
+		flex: 100%;
+	  }
+
+	  .sideBySideIntro .flex-item-left  {
+		flex : 100%
+	}
+	
+	.sideBySideIntro .flex-item-right  {
+		flex : 100%
+	}
+
+}
+
 
 .sideBySideFull {
 	display : flex;
