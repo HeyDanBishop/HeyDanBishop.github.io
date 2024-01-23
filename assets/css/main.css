@@ -4988,9 +4988,12 @@ p.twoImages {
   
   /* Style the active/current link*/
   .header a.active {
-	background-color: #606060;
+	background-color: #404040;
+	
 	color: white;
 	border-bottom : 2px solid #ffffff;
+
+	border-radius: 4px;
   }
   
   /* Float the link section to the right */
