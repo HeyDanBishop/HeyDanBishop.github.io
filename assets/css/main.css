@@ -3179,11 +3179,11 @@ p.twoImages {
 				}
 
 				header.major > .date:before {
-					left: 0;
+					/* left: 0; */
 				}
 
 				header.major > .date:after {
-					right: 0;
+					/* right: 0; */
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4946,12 +4946,12 @@ p.twoImages {
 	padding-left : 15px;
 	padding-right : 15px;
 	text-decoration: none;
-	font-size: 90%;
+	/* font-size: 90%; */
 	/* line-height: 25px; */
 	
 	font-weight: bold;
 	margin-left : 15px;
-	font-size : 120%;
+	font-size : 110%;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -4983,6 +4983,7 @@ p.twoImages {
 	float: right;
 	vertical-align : middle;
 	padding-top : 10px;
+	padding-right : 10px;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
