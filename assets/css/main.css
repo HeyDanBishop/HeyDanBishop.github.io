@@ -4195,7 +4195,7 @@ p.twoImages {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-top : 2px solid #f5f5f5;
+		border-top : 2px solid #eeeeee;
 		/*background-color: #f5f5f5;*/
 		color: #909498;
 		cursor: default;
