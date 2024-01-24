@@ -117,7 +117,7 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+/*		font-size: 16pt; */
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -4001,7 +4001,7 @@ p.twoImages {
 		}
 
 		#main > .post {
-			padding: 2rem 4rem 2rem 6rem ;
+			padding: 2rem 4rem 2rem 4rem ;
 		}
 
 			#main > .post header.major > .date {
