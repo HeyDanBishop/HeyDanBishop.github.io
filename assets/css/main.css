@@ -4061,7 +4061,7 @@ p.twoImages {
 			-webkit-align-items: -webkit-stretch;
 			-ms-align-items: -ms-stretch;
 			align-items: stretch;
-			text-align: center;
+			/* text-align: center; */
 			width: 100%;
 			padding: 0;
 		}
@@ -4094,7 +4094,7 @@ p.twoImages {
 				border-left-width: 2px;
 				border-style: solid;
 				border-top-width: 2px;
-				text-align: center;
+				/* text-align: center; */
 			}
 
 				#main > .posts > article > :last-child {
