@@ -5017,12 +5017,15 @@ p.twoImages {
 	*/
 
 	.header {
-		width : 95%;
+		/*width : 95%; */
 	}
 
-	a.logo {
+	.header a.logo {
+		border : 0px;
+
 		display: block;
 		width : 95%;
+
 		/*
 		float : none;
 		*/
