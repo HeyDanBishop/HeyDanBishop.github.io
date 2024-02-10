@@ -3102,7 +3102,8 @@ p.twoImages {
 	}
 
 	#main-header {
-		background-color : #212931;
+		/* background-color : #212931; */
+		background-color : #091726;
 	}
 
 	header {
@@ -4966,7 +4967,7 @@ p.twoImages {
 	
 	font-weight: bold;
 	margin-left : 15px;
-	font-size : 110%;
+	font-size : 105%;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
