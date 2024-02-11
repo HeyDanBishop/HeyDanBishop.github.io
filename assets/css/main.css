@@ -5049,11 +5049,11 @@ p.twoImages {
   }
 
 
-  #main p {
+  .body-section p {
 	max-width : 850px;
   }
 
-  #main ul {
+  .body-section ul {
 	max-width : 850px;
   }
   
