@@ -5047,4 +5047,13 @@ p.twoImages {
 
 
   }
+
+
+  #main p {
+	max-width : 850px;
+  }
+
+  #main ul {
+	max-width : 850px;
+  }
   
