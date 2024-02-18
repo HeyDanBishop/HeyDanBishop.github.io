@@ -35,7 +35,7 @@
 					<article class="post featured">
 						<header class="major">
 							<span class="date"><b style="color : #212931; padding-left : 0.8rem; padding-right : 0.8rem; font-size : 125%">AIOI NISSAY DOWA - 2019</b></span>
-						<h1 style="text-transform:initial;">SaaS Telematics Fleet Management</h1>
+						<h1 style="text-transform:initial;">Telematics Fleet Management</h1>
 						<p>Leveraging telematics to create a lightweight fleet management SaaS offering.</p>
 						<h3>My role</h3>
 						<p>I was asked to design a system for a SaaS add-on for Fleet insurance customers, <br />aiming to 
@@ -120,14 +120,27 @@
 					<h2>Design</h2>
 					
 					<h3>Fleet manager dashboard</h3>
-					<br />
+					<p class="noPadding">The approach for the initial release was to create a simple UI, establishing a foundation to extend in future releases.<br />
+						Main changes included:</p>
+					<ul>
+						<li>Reducing UI flexibility as customisation options easily made the tool hard to use. Creating a screen architecture for primary data groupings that could be easily navigated via multiple entry points</li>
+						<li>Apply an F-shaped reading pattern to the screen structure to improve scannability. Creating a series of rows for ‘at a glance’ behaviour exhibited by fleet managers - as they switch between systems and views</li>
+						<li>Some data-heavy UI hygiene:<br />
+							- Comprehension of field labels: re-wording or decomposing into field value suffix<br />
+							- Standardised visuals & icons to work across dashboard and mobile<br />
+							- Round up numbers - don’t need multiple decimal places for these user types<br />
+							</li>
+					</ul>
+					
 					<div class="sideBySide" style="width : 100%">
 						<div style="flex : 50%;"><img class="drop" src="images/andie/VehicleList.png" style="width: 95%;" /></div>
 						<div style="flex : 50%;"><img class="drop" src="images/andie/LocationsMap.png" style="width: 95%;" /></div>
 					</div>
+					<br />
 					<div>
 						<img class="drop" src="images/andie/DashboardTrip.png" style="width: 90%;" />
 					</div>
+					<br />
 					<div class="sideBySide" style="width : 100%">
 						<div style="flex : 50%;"><img class="drop" src="images/andie/VehicleDetails.png" style="width: 95%;" /></div>
 						<div style="flex : 50%;"></div>
@@ -142,7 +155,9 @@
 					-->
 					<br />
 					<h3>Driver's mobile app</h3>
-					<br />
+					<p>The team decided to make the drivers portal a web-based solution as the field study identified drivers using both Android and iPhones with some having 
+						older devices to be supported. The working hypothesis for a driver’s main information needs was ‘how I’ve driven today’, how I’ve driven this week’ 
+						or ‘have I driven badly’.</p>
 					<div>
 						<img src="images/andie/Main.png" style="width : 25%; margin-right : 40px" /><img 
 							src="images/andie/Map.png"  style="width : 25%; margin-right : 40px" /><img 
@@ -156,6 +171,9 @@
 
 					<img src
 					-->
+					<br />
+					<h2>Testing</h2>
+					<p>blurb ..</p>
 
 					</article>
 				</section>
