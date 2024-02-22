@@ -179,7 +179,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -198,7 +198,7 @@ input, select, textarea {
 		/*
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		*/
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
@@ -4190,6 +4190,10 @@ p.twoImages {
 
 /* Footer */
 
+	#foot-contain {
+		background-color : #E8ECF1;
+	}
+
 	#footer {
 		color: #717981;
 		display: -moz-flex;
@@ -4202,18 +4206,27 @@ p.twoImages {
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
-		width: calc(100% - 4rem);
-		max-width: 72rem;
+		/* width: calc(100% - 4rem); */
+		max-width: 1200px;
 		z-index: 2;
+
+		
+
 	}
 
 		#footer input, #footer select, #footer textarea {
 			color: #717981;
 		}
 
+		#footer span {
+			font-weight : 500;
+		}
+
 		#footer a {
 			color: #717981;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
+
+			font-weight : 500;
 		}
 
 			#footer a:hover {
