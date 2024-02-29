@@ -37,10 +37,9 @@
 							<b style="color : #212931; padding : 0.4rem;">AIOI NISSAY DOWA - 2019</b>
 							<h1 style="text-transform:initial;">Telematics Fleet Management</h1>
 							<div style="max-width : 850px;">
-								<p style="font-size : 110%;">Leveraging telematics to create a lightweight fleet management SaaS for b2b business insurance customers.</p>
+								<p style="font-size : 110%;">Using telematics to create a lightweight fleet management SaaS capability for business insurance.</p>
 								<h3>My role</h3>
-								<p>Design the initial version of a Telematics Fleet Management tool and mobile portal for drivers. With the goal to scale 
-									across Toyota's European business.</p>
+								<p>Design the initial version of a Telematics Fleet Management platform to scale across Toyota Finance's European business.</p>
 							</div>
 						</header>
 					</article>
@@ -90,28 +89,32 @@
 					<article>
 
 					<br />
-					<h2>Background</h2>
-					<p>Aioi Nissay Dowa Europe (AND-E) alongside partner Toyota Finance had identified an opportunity for business customers to be 
-						offered a lightweight fleet management capability as part of their insurance package. An alternative to purchasing a dedicated fleet management product.</p>
-					<p>Adapting an existing telematics consumer proposition to monitor driver performance, car maintenance and 
-						compliance. A dashboard had been designed by the telematics development team with an existing consumer 
-						app adapted for a b2b context. </p>
-					<p>Piloting the dashboard with a client had resulted in negative user feedback, the ask was for me to come in and 'fix the UI'. I was conscious that more 
-						understanding was required of target users than just executing an improved UI, making the case to understand more about the user’s situations before design work started.</p>
-						
-					<h2>Research</h2>
-					<p>I conducted initial field studies with a client trialling the tool, a b2b auto parts supplier. Interviewing two fleet managers 
-						and conducting a cognitive walkthrough of their main tasks while using the tool. Unfortunately, it wasn’t possible to chat 
-						with drivers, so I used anecdotal information from the fleet managers, treated these as assumptions to be validated.</p>
+					<b>BACKGROUND</b>
+					<h3>Customer Retention Opportunity</h3>
+					<p>Aioi Nissay Dowa Europe (AND-E) alongside partner Toyota Finance had identified an opportunity to 
+						offer business customers a lightweight fleet management capability as part of their insurance package. An alternative 
+						to provisioning a dedicated fleet management product, aiming to improve customer loyalty and retention.</p>
+					<p>Leveraging recent improvements in the telematics capability used by multiple propositions to monitor driver performance and car maintenance. A 
+						dashboard had been designed by the products development team with an existing consumer app adapted for a b2b context. </p>
 
-					<p>I decided there wasn’t a need to measure the current tool’s performance to justify improvements, as the focus was to generate 
+					<h3>Negative customer feedback</h3>	
+					<p>Piloting the platform with a client had resulted in negative feedback, the ask was for me to come in and 'fix the UI'. I was conscious that more 
+						understanding was required of target users than just executing an improved UI, making the case to understand more about the user’s situations before design work started.</p>
+					
+					<b>RESEARCH</b>
+					<h3>Field Study with an auto parts supplier</h3>
+					<p>I conducted initial field studies with a client that was trialling the tool, an auto parts supplier. Interviewing two fleet managers 
+						and conducting a cognitive walkthrough of their main tasks. Unfortunately, it wasn’t possible to spend time with drivers, 
+						instead using anecdotal information from fleet managers and treated these as assumptions for validation.</p>
+
+					<p>I decided there wasn’t a need to measure the current tool’s performance to justify improvements. As the focus was to generate 
 						a current understanding of how people do their jobs and identify opportunities to make the system more appropriate.</p>
 
-					<h3>Personas</h3>
+					<h3>Created Personas to define discoveries with product team</h3>
 					
-					<p>Initial sessions with the product team demonstrated that there wasn’t a collective understanding of business goals or user insight. 
-						Some concepts were being communicated inconsistently. I therefore created key personas to synthesise findings of the field study into 
-						a simple format of headlines for the team to use as guidance.</p>
+					<p>Initial sessions with the product team demonstrated an incoherent understanding of customer insight and their goals, with domain concepts 
+						communicated inconsistently. Personas synthesised findings of the field study into a simple format of headlines to be easily used as guidance 
+						about the main users of the platform.</p>
 
 					<div>
 						<img class="drop" src="images/andie/FleetPersona.png" style="width: 80%;" />
@@ -125,18 +128,19 @@
 -->				
 
 					<br />
-					<h2>Design</h2>
-					
-					<h3>Fleet manager dashboard</h3>
-					<p class="noPadding">The approach for the initial release was to create a simple UI, establishing a foundation to extend in future releases.<br />
+					<b>DESIGN</b>
+					<h3>Fleet management dashboard</h3>
+					<p class="noPadding">The goal of the initial release was to create a simple UI, establishing a foundation to extend in future releases.<br />
 						Main changes included:</p>
 					<ul>
-						<li>Reducing UI flexibility as customisation options easily made the tool hard to use. Creating a screen architecture for primary data groupings that could be easily navigated via multiple entry points</li>
-						<li>Apply an F-shaped reading pattern to the screen structure to improve scannability. Creating a series of rows for ‘at a glance’ behaviour exhibited by fleet managers - as they switch between systems and views</li>
+						<li>Reduce UI flexibility as customisation options easily made the tool hard to use. Instead, applying a UI screen architecture with dedicated screens 
+							for primary data groupings to be easily navigated via multiple entry points</li>
+						<li>Applying an F-shaped reading pattern to the screen structure to improve scannability. Creating a series of rows for ‘at a glance’ behaviour exhibited 
+							by fleet managers - as they switch between systems and views</li>
 						<li>Data-heavy UI hygiene:<br />
-							- Comprehension of field labels: re-wording or decomposing into field value suffix<br />
+							- Comprehension of field labels: re-wording or decomposing into field value suffixesß<br />
 							- Standardised visuals & icons to work across dashboard and mobile<br />
-							- Round up numbers - multiple decimal places not needed by users<br />
+							- Round up numbers - multiple decimal places not needed by target user groups<br />
 							</li>
 					</ul>
 
@@ -166,16 +170,16 @@
 					<p>Testing & iteration</p>
 					-->
 					<br />
-					<h3>Driver's mobile app</h3>
-					<p>The team decided to make the drivers portal a web-based solution as the field study identified drivers using both Android and iPhones, some drivers 
-						had older devices that would need supporting. The working hypothesis for a driver’s main information needs was ‘how I’ve driven today’, how I’ve driven this week’ 
+					<h3>Driver's mobile view of their trips & score</h3>
+					<p>The team decided to make the drivers portal a web-based solution as the field study identified drivers using a fragmentation of OS and 
+						device models that would need supporting. The working hypothesis for a driver’s main information needs was ‘how I’ve driven today’, 'how I’ve driven this week’ 
 						or ‘have I driven badly’.</p>
 
 					</article>
 				</section>
 			</div>
 
-			<div style="width : 100%; max-width : 1000px; margin : 0 auto;">
+			<div style="width : 100%; max-width : 900px; margin : 0 auto;">
 				<img src="images/andie/Main.png" style="width : 25%; margin-right : 30px" /><img 
 					src="images/andie/Map.png"  style="width : 25%; margin-right : 30px" /><img 
 					src="images/andie/DrivingTips.png"  style="width : 25%; margin-right : 30px" />
@@ -192,8 +196,9 @@
 
 						<br />
 						<h2>Testing</h2>
-						<p>Dashboard and mobile designs were tested via remote cognitive walkthroughs with fleet managers, using a mid-fidelity clickable prototype. Key 
-							scenarios previously identified guided the session using a semi-structured ‘test’ to gather opinions on assumed user’s comprehension and usability.</p>
+						<h3> Cognitive walkthrough with Fleet Managers</h3>
+						<p>Dashboard and mobile designs were tested via remote cognitive walkthroughs with fleet managers, using a high-fidelity clickable prototype. Using a 
+							semi-structured ‘test’ guided by key scenarios to gather opinions on assumed user’s comprehension and usability.</p>
 
 					</article>
 				</section>
